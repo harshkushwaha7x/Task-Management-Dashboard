@@ -4,7 +4,7 @@
 
 **Task Manager** is a modern task management dashboard built with **React.js**, **Redux Toolkit**, and **Tailwind CSS**. It enables **efficient task organization**, **real-time filtering**, and **seamless task management** — designed for productivity and clean code practices.
 
-[Portfolio](https://portflio-3.vercel.app/) • [GitHub](https://github.com/harshkushwaha7x)
+• [Portfolio](https://portflio-3.vercel.app/) • [GitHub](https://github.com/harshkushwaha7x)
 
 </div>
 
@@ -129,7 +129,7 @@ task-management-dashboard/
 ### Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/harshkushwaha7x/Task-Management-Dashboard.git
 cd Assignment-Task-Management-Dashboard
 ```
 
@@ -236,32 +236,6 @@ npm run preview
 
 ---
 
-## 🎯 Assignment Compliance
-
-This project fulfills all assignment requirements:
-
-### Core Features
-
-* Display task list using React components
-* Add task with mandatory title validation
-* Edit task with immediate UI updates
-* Delete task with confirmation
-* Toggle task status (Completed/Pending)
-* Filter tasks (All/Completed/Pending)
-* Search tasks by title
-* Light/Dark theme toggle with persistence
-
-### Technical Requirements
-
-* React.js with modern hooks
-* Redux Toolkit for state management
-* Tailwind CSS for styling
-* Functional components only
-* Mobile-responsive design
-* Mock API with JSON Server
-
----
-
 ## 🤝 Contributing
 
 1. Fork this repository
@@ -273,7 +247,7 @@ This project fulfills all assignment requirements:
 
 ## 🪪 License
 
-This project is licensed under the **MIT License** — created for educational purposes.
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -281,7 +255,7 @@ This project is licensed under the **MIT License** — created for educational p
 
 **Harsh Kushwaha** — Developer & Maintainer
 
-* Portfolio: [https://portflio-3.vercel.app/](https://portflio-3.vercel.app/)
+* Portfolio: [https://portfolio-harsh7x.vercel.app/](https://portfolio-harsh7x.vercel.app/)
 * GitHub: [https://github.com/harshkushwaha7x](https://github.com/harshkushwaha7x)
 * LinkedIn: [https://www.linkedin.com/in/harsh-kushwaha-7x/](https://www.linkedin.com/in/harsh-kushwaha-7x/)
 * Email: [harshkushwaha4151@gmail.com](mailto:harshkushwaha4151@gmail.com)
