@@ -4,7 +4,7 @@
 
 **Task Manager** is a modern task management dashboard built with **React.js**, **Redux Toolkit**, and **Tailwind CSS**. It enables **efficient task organization**, **real-time filtering**, and **seamless task management** — designed for productivity and clean code practices.
 
-• [Portfolio](https://portflio-3.vercel.app/) • [GitHub](https://github.com/harshkushwaha7x)
+• [Portfolio](https://portfolio-harsh7x.vercel.app/) • [GitHub](https://github.com/harshkushwaha7x)
 
 </div>
 
