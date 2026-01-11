@@ -1,10 +1,10 @@
 <div align="center">
 
-# Task Management Dashboard
+# TASK MANAGER ✅
 
-A modern, full-featured task management application built with React.js, Redux Toolkit, and Tailwind CSS. Demonstrates clean code practices, state management expertise, and responsive UI design.
+**Task Manager** is a modern task management dashboard built with **React.js**, **Redux Toolkit**, and **Tailwind CSS**. It enables **efficient task organization**, **real-time filtering**, and **seamless task management** — designed for productivity and clean code practices.
 
-[GitHub](https://github.com/harshkushwaha7x) • [Portfolio](https://portflio-3.vercel.app/)
+[Portfolio](https://portflio-3.vercel.app/) • [GitHub](https://github.com/harshkushwaha7x)
 
 </div>
 
@@ -14,421 +14,286 @@ A modern, full-featured task management application built with React.js, Redux T
   <img src="https://img.shields.io/badge/React-18.3.1-61dafb?style=flat-square&logo=react" alt="react">
   <img src="https://img.shields.io/badge/Redux_Toolkit-2.2.1-764abc?style=flat-square&logo=redux" alt="redux">
   <img src="https://img.shields.io/badge/Tailwind_CSS-3.4.1-38bdf8?style=flat-square&logo=tailwindcss" alt="tailwind">
-  <img src="https://img.shields.io/badge/Vite-5.1.4-646cff?style=flat-square&logo=vite" alt="vite">
+  <img src="https://img.shields.io/badge/version-1.0.0-success?style=flat-square" alt="version" />
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="license" />
 </p>
 
 ---
 
-## Overview
+## 📋 Overview
 
-Task Management Dashboard is a feature-rich web application designed to streamline task organization and boost productivity. Built with modern React development practices, it showcases proficiency in component architecture, state management, and user interface design.
+**Task Manager** is a full-stack task management dashboard enabling users to organize tasks efficiently with real-time updates, advanced filtering, and theme customization.
+Built using **React.js**, **Redux Toolkit**, and **Tailwind CSS**, it delivers a fast, responsive, and scalable task management experience.
 
-**Key Capabilities:**
+Core highlights:
 
-- Complete CRUD operations for task management
-- Advanced filtering and real-time search functionality
-- Dark/Light theme with persistent user preferences
-- Fully responsive design across all devices
-- RESTful API integration with JSON Server
-- Optimized performance with memoized selectors
-
----
-
-## Features
-
-### Task Management
-
-**Create Tasks**
-- Quick task addition with input validation
-- Immediate UI updates without page refresh
-- Persistent storage via API
-
-**Edit Tasks**
-- Inline editing with save/cancel controls
-- Real-time validation and error handling
-- Seamless state synchronization
-
-**Delete Tasks**
-- Confirmation dialog for accidental deletion prevention
-- Instant removal with optimistic UI updates
-- Proper error handling and rollback
-
-**Status Management**
-- Toggle between Completed and Pending states
-- Visual indicators with status badges
-- Automatic count updates in filter buttons
-
-### Filtering & Search
-
-**Smart Filtering**
-- Three filter modes: All, Completed, Pending
-- Live task count display per filter
-- Visual feedback for active filter state
-
-**Real-Time Search**
-- Case-insensitive search by task title
-- Combined search and filter logic
-- Instant results as you type
-
-### User Interface
-
-**Modern Design**
-- Glassmorphism effects with backdrop blur
-- Professional blue-cyan color palette
-- Smooth animations and transitions
-- Premium typography with Google Fonts
-
-**Theme System**
-- Toggle between Light and Dark modes
-- Automatic persistence in localStorage
-- Instant theme application without reload
+* ⚡ **Real-Time Updates**: Instant UI reflection for all operations
+* 🔍 **Smart Filtering**: Filter by All, Completed, or Pending
+* 🔎 **Live Search**: Real-time search with filter integration
+* 🌓 **Theme Toggle**: Dark and light mode with persistence
+* 📱 **Responsive Design**: Optimized for all devices
+* 🎨 **Modern UI**: Glassmorphism effects and smooth animations
 
 ---
 
-## Technology Stack
+## 🚀 Key Features
+
+### ✅ Task Management
+
+* Create new tasks with validation
+* Edit tasks inline with save/cancel options
+* Delete tasks with confirmation dialog
+* Toggle task status between Completed and Pending
+* Immediate UI updates for all operations
+
+### 🔍 Filtering & Search
+
+* Filter tasks by All, Completed, or Pending
+* Live task count on each filter button
+* Real-time search by task title
+* Case-insensitive search functionality
+* Combined filter and search logic
+
+### 🎨 User Interface
+
+* Modern glassmorphism design
+* Professional blue-cyan color palette
+* Smooth animations and transitions
+* Google Fonts (Inter) typography
+* Dark mode support with localStorage persistence
+
+---
+
+## ⚙️ Tech Stack
 
 ### Frontend
 
-| Technology | Version | Purpose |
-|-----------|---------|---------|
-| React | 18.3.1 | UI Framework |
-| Redux Toolkit | 2.2.1 | State Management |
-| Tailwind CSS | 3.4.1 | Styling |
-| Vite | 5.1.4 | Build Tool |
-| Lucide React | 0.344.0 | Icon Library |
+* React 18.3.1 with Hooks
+* Redux Toolkit 2.2.1
+* Tailwind CSS 3.4.1
+* Vite 5.1.4
+* Lucide React (Icons)
 
-### Backend (Mock)
+### Mock API
 
-| Technology | Version | Purpose |
-|-----------|---------|---------|
-| JSON Server | 0.17.4 | Mock REST API |
-| Concurrently | 8.2.2 | Script Runner |
+* JSON Server 0.17.4
+* Concurrently 8.2.2
 
-### State Management Architecture
+### State Management
 
-- Redux Toolkit slices for modular state
-- Memoized selectors for performance optimization
-- Immutable state updates via Immer
-- Centralized store configuration
+* Redux Toolkit slices for tasks and theme
+* Memoized selectors for performance
+* Immutable state updates with Immer
+* Centralized store configuration
 
 ---
 
-## Project Structure
+## 🧩 Architecture
 
-```
+```text
 task-management-dashboard/
-│
 ├── src/
-│   ├── components/              # React Components
-│   │   ├── AddTaskForm.jsx      # Task creation form
-│   │   ├── FilterButtons.jsx    # Filter controls
-│   │   ├── SearchBar.jsx        # Search input
-│   │   ├── TaskItem.jsx         # Individual task display
-│   │   ├── TaskList.jsx         # Task container
-│   │   └── ThemeToggle.jsx      # Theme switcher
-│   │
-│   ├── services/                # API Layer
-│   │   └── api.js               # HTTP client
-│   │
-│   ├── store/                   # Redux Store
-│   │   ├── store.js             # Store configuration
-│   │   ├── tasksSlice.js        # Tasks state
-│   │   └── themeSlice.js        # Theme state
-│   │
-│   ├── App.jsx                  # Root component
-│   ├── main.jsx                 # Application entry
-│   └── index.css                # Global styles
+│   ├── components/         # React Components
+│   │   ├── AddTaskForm.jsx
+│   │   ├── FilterButtons.jsx
+│   │   ├── SearchBar.jsx
+│   │   ├── TaskItem.jsx
+│   │   ├── TaskList.jsx
+│   │   └── ThemeToggle.jsx
+│   ├── services/          # API Layer
+│   │   └── api.js
+│   ├── store/             # Redux Store
+│   │   ├── store.js
+│   │   ├── tasksSlice.js
+│   │   └── themeSlice.js
+│   ├── App.jsx            # Main Component
+│   ├── main.jsx           # Entry Point
+│   └── index.css          # Global Styles
 │
-├── db.json                      # Mock database
-├── package.json                 # Dependencies
-├── tailwind.config.js           # Tailwind configuration
-├── vite.config.js               # Vite configuration
-└── README.md                    # Documentation
+├── db.json                # Mock Database
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
 ```
 
 ---
 
-## Installation & Setup
+## 🧰 Getting Started
 
 ### Prerequisites
 
-- Node.js (version 16 or higher)
-- npm or yarn package manager
+* Node.js v16+
+* npm or yarn
 
-### Installation Steps
-
-**1. Clone the repository**
+### Installation
 
 ```bash
 git clone <repository-url>
 cd Assignment-Task-Management-Dashboard
 ```
 
-**2. Install dependencies**
+#### Install Dependencies
 
 ```bash
 npm install
 ```
 
-**3. Start the application**
+#### Run Project
 
 ```bash
+# Start both React app and JSON Server
 npm start
+
+# React app: http://localhost:3000
+# JSON Server: http://localhost:3001
 ```
 
-This command runs both the React development server (port 3000) and JSON Server API (port 3001) concurrently.
-
-**Alternative: Run separately**
+**Or run separately:**
 
 ```bash
-# Terminal 1 - Frontend
+# Terminal 1 - Frontend (Port 3000)
 npm run dev
 
-# Terminal 2 - Backend API
+# Terminal 2 - Backend API (Port 3001)
 npm run server
 ```
 
-**4. Access the application**
-
-- Frontend: http://localhost:3000
-- API: http://localhost:3001
-
-### Production Build
+#### Build for Production
 
 ```bash
-# Create optimized build
 npm run build
-
-# Preview production build
 npm run preview
 ```
 
 ---
 
-## Usage Guide
+## 💡 Usage Guide
 
 ### Adding Tasks
 
-1. Enter task title in the input field
-2. Click "Add Task" button or press Enter
-3. Task appears in the list immediately
+* Enter task title in the input field
+* Click "Add Task" or press Enter
+* Task appears immediately in the list
 
 ### Editing Tasks
 
-1. Click the edit icon on any task
-2. Modify the task title inline
-3. Click save to confirm or cancel to discard changes
+* Click the edit icon on any task
+* Modify the title inline
+* Click save to confirm or cancel to discard
 
 ### Deleting Tasks
 
-1. Click the delete icon on a task
-2. Confirm deletion in the dialog
-3. Task is removed from the list
+* Click the delete icon on a task
+* Confirm deletion in the dialog
+* Task is removed immediately
 
-### Managing Task Status
+### Managing Status
 
-- Click the circle icon to mark a task as completed
-- Click the checkmark icon to mark a task as pending
-- Status badge updates automatically
+* Click circle icon to mark as completed
+* Click checkmark icon to mark as pending
+* Status badge updates automatically
 
-### Filtering Tasks
+### Filtering & Searching
 
-- **All**: Displays all tasks
-- **Completed**: Shows only completed tasks
-- **Pending**: Shows only pending tasks
+* Click filter buttons (All/Completed/Pending)
+* Type in search box to filter by title
+* Search works with active filter
 
-### Searching Tasks
+### Theme Toggle
 
-- Type in the search box to filter tasks by title
-- Search works in combination with active filters
-- Results update in real-time
-
-### Theme Switching
-
-- Click the theme toggle icon in the header
-- Theme preference is saved automatically
-- Setting persists across browser sessions
+* Click sun/moon icon to switch themes
+* Theme preference saved in localStorage
+* Auto-restores on page reload
 
 ---
 
-## API Documentation
+## 🔌 API Endpoints
 
-### Endpoints
+### Tasks
 
-JSON Server provides the following RESTful endpoints:
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/tasks` | Retrieve all tasks |
-| POST | `/tasks` | Create a new task |
-| PUT | `/tasks/:id` | Update an existing task |
-| DELETE | `/tasks/:id` | Delete a task |
-
-### Request Examples
-
-**Create Task**
-```bash
-POST http://localhost:3001/tasks
-Content-Type: application/json
-
-{
-  "title": "Complete project documentation",
-  "status": "pending"
-}
-```
-
-**Update Task**
-```bash
-PUT http://localhost:3001/tasks/1
-Content-Type: application/json
-
-{
-  "title": "Updated task title",
-  "status": "completed"
-}
-```
+* `GET /tasks` — Fetch all tasks
+* `POST /tasks` — Create a new task
+* `PUT /tasks/:id` — Update a task
+* `DELETE /tasks/:id` — Delete a task
 
 ---
 
-## Responsive Design
+## 📱 Responsive Design
 
-The application is fully responsive across all device sizes:
-
-| Breakpoint | Screen Size | Layout Optimizations |
-|------------|-------------|---------------------|
-| Mobile | 375px+ | Single column, touch-optimized controls |
-| Tablet | 768px+ | Optimized spacing and button sizes |
-| Desktop | 1920px+ | Full layout with enhanced visual effects |
+* Mobile (375px+) — Single column layout
+* Tablet (768px+) — Optimized spacing
+* Desktop (1920px+) — Full layout with effects
 
 ---
 
-## Performance Optimization
+## ⚡ Performance
 
-### Code Quality
-
-- Functional components with React Hooks
-- Proper component composition and separation of concerns
-- Reusable component architecture
-- Clean code with meaningful naming conventions
-- Comprehensive error handling
-
-### State Management
-
-- Centralized state with Redux Toolkit
-- Memoized selectors to prevent unnecessary re-renders
-- Normalized state structure
-- Efficient update patterns
-
-### Build Optimization
-
-- Vite for fast development and optimized production builds
-- Code splitting ready
-- Optimized asset loading
-- Minimal bundle size
+* Vite for fast development builds
+* Optimized Redux selectors
+* Minimal re-renders with memoization
+* Production-ready bundle optimization
 
 ---
 
-## Assignment Compliance
+## 🎯 Assignment Compliance
 
-This project fulfills all specified assignment requirements:
+This project fulfills all assignment requirements:
 
 ### Core Features
 
-- Display task list using React components
-- Add new tasks with mandatory title validation
-- Edit existing tasks with immediate UI reflection
-- Delete tasks with confirmation
-- Toggle task status (Completed/Pending)
-- Filter tasks by All, Completed, or Pending
-- Search tasks by title with filter integration
-- Light/Dark theme toggle with persistence
+* Display task list using React components
+* Add task with mandatory title validation
+* Edit task with immediate UI updates
+* Delete task with confirmation
+* Toggle task status (Completed/Pending)
+* Filter tasks (All/Completed/Pending)
+* Search tasks by title
+* Light/Dark theme toggle with persistence
 
 ### Technical Requirements
 
-- Built with React.js using modern hooks
-- State management via Redux Toolkit
-- Styled with Tailwind CSS
-- Functional components only
-- Mobile-responsive design
-- Mock API integration with JSON Server
+* React.js with modern hooks
+* Redux Toolkit for state management
+* Tailwind CSS for styling
+* Functional components only
+* Mobile-responsive design
+* Mock API with JSON Server
 
 ---
 
-## Dependencies
+## 🤝 Contributing
 
-### Production Dependencies
-
-```json
-{
-  "react": "^18.3.1",
-  "react-dom": "^18.3.1",
-  "react-redux": "^9.1.0",
-  "@reduxjs/toolkit": "^2.2.1",
-  "lucide-react": "^0.344.0"
-}
-```
-
-### Development Dependencies
-
-```json
-{
-  "@vitejs/plugin-react": "^4.2.1",
-  "vite": "^5.1.4",
-  "tailwindcss": "^3.4.1",
-  "postcss": "^8.4.35",
-  "autoprefixer": "^10.4.17",
-  "json-server": "^0.17.4",
-  "concurrently": "^8.2.2"
-}
-```
-
----
-
-## Browser Compatibility
-
-Tested and optimized for:
-
-- Google Chrome (latest)
-- Mozilla Firefox (latest)
-- Safari (latest)
-- Microsoft Edge (latest)
-
----
-
-## Contributing
-
-This is an assignment project. Suggestions and improvements are welcome:
-
-1. Fork the repository
+1. Fork this repository
 2. Create a feature branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -m "Description of changes"`)
-4. Push to the branch (`git push origin feature-name`)
-5. Open a Pull Request
+3. Commit your changes (`git commit -m "Add new feature"`)
+4. Push & open a Pull Request
 
 ---
 
-## License
+## 🪪 License
 
-This project is licensed under the MIT License. Created for educational and demonstration purposes.
+This project is licensed under the **MIT License** — created for educational purposes.
 
 ---
 
-## Contact Information
+## 📬 Contact
 
-**Harsh Kushwaha**  
-Full Stack Developer
+**Harsh Kushwaha** — Developer & Maintainer
 
-- **Portfolio**: [https://portflio-3.vercel.app/](https://portflio-3.vercel.app/)
-- **GitHub**: [https://github.com/harshkushwaha7x](https://github.com/harshkushwaha7x)
-- **LinkedIn**: [https://www.linkedin.com/in/harsh-kushwaha-7x/](https://www.linkedin.com/in/harsh-kushwaha-7x/)
-- **Email**: [harshkushwaha4151@gmail.com](mailto:harshkushwaha4151@gmail.com)
+* Portfolio: [https://portflio-3.vercel.app/](https://portflio-3.vercel.app/)
+* GitHub: [https://github.com/harshkushwaha7x](https://github.com/harshkushwaha7x)
+* LinkedIn: [https://www.linkedin.com/in/harsh-kushwaha-7x/](https://www.linkedin.com/in/harsh-kushwaha-7x/)
+* Email: [harshkushwaha4151@gmail.com](mailto:harshkushwaha4151@gmail.com)
 
 ---
 
 <div align="center">
 
-**Task Management Dashboard**
+**TASK MANAGER** – Organize Tasks. Boost Productivity.
 
-Built by Harsh Kushwaha
+Built by **Harsh Kushwaha**
 
 </div>
+
+---
