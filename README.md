@@ -1,6 +1,6 @@
 <div align="center">
 
-# TASK MANAGER ✅
+# TASK MANAGER
 
 **Task Manager** is a modern task management dashboard built with **React.js**, **Redux Toolkit**, and **Tailwind CSS**. It enables **efficient task organization**, **real-time filtering**, and **seamless task management** — designed for productivity and clean code practices.
 
@@ -20,25 +20,25 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 **Task Manager** is a full-stack task management dashboard enabling users to organize tasks efficiently with real-time updates, advanced filtering, and theme customization.
 Built using **React.js**, **Redux Toolkit**, and **Tailwind CSS**, it delivers a fast, responsive, and scalable task management experience.
 
 Core highlights:
 
-* ⚡ **Real-Time Updates**: Instant UI reflection for all operations
-* 🔍 **Smart Filtering**: Filter by All, Completed, or Pending
-* 🔎 **Live Search**: Real-time search with filter integration
-* 🌓 **Theme Toggle**: Dark and light mode with persistence
-* 📱 **Responsive Design**: Optimized for all devices
-* 🎨 **Modern UI**: Glassmorphism effects and smooth animations
+* **Real-Time Updates**: Instant UI reflection for all operations
+* **Smart Filtering**: Filter by All, Completed, or Pending
+* **Live Search**: Real-time search with filter integration
+* **Theme Toggle**: Dark and light mode with persistence
+* **Responsive Design**: Optimized for all devices
+* **Modern UI**: Glassmorphism effects and smooth animations
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### ✅ Task Management
+### Task Management
 
 * Create new tasks with validation
 * Edit tasks inline with save/cancel options
@@ -46,7 +46,7 @@ Core highlights:
 * Toggle task status between Completed and Pending
 * Immediate UI updates for all operations
 
-### 🔍 Filtering & Search
+### Filtering & Search
 
 * Filter tasks by All, Completed, or Pending
 * Live task count on each filter button
@@ -54,7 +54,7 @@ Core highlights:
 * Case-insensitive search functionality
 * Combined filter and search logic
 
-### 🎨 User Interface
+### User Interface
 
 * Modern glassmorphism design
 * Professional blue-cyan color palette
@@ -64,7 +64,7 @@ Core highlights:
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -88,7 +88,7 @@ Core highlights:
 
 ---
 
-## 🧩 Architecture
+## Architecture
 
 ```text
 task-management-dashboard/
@@ -119,7 +119,7 @@ task-management-dashboard/
 
 ---
 
-## 🧰 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -168,7 +168,7 @@ npm run preview
 
 ---
 
-## 💡 Usage Guide
+## Usage Guide
 
 ### Adding Tasks
 
@@ -208,7 +208,7 @@ npm run preview
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Tasks
 
@@ -219,7 +219,7 @@ npm run preview
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 * Mobile (375px+) — Single column layout
 * Tablet (768px+) — Optimized spacing
@@ -227,7 +227,7 @@ npm run preview
 
 ---
 
-## ⚡ Performance
+## Performance
 
 * Vite for fast development builds
 * Optimized Redux selectors
@@ -236,7 +236,7 @@ npm run preview
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork this repository
 2. Create a feature branch (`git checkout -b feature-name`)
@@ -245,17 +245,17 @@ npm run preview
 
 ---
 
-## 🪪 License
+## License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Harsh Kushwaha** — Developer & Maintainer
 
-* Portfolio: [https://portfolio-harsh7x.vercel.app/](https://portfolio-harsh7x.vercel.app/)
+* Portfolio: [portfolio-harsh7x.vercel.app](https://portfolio-harsh7x.vercel.app/)
 * GitHub: [https://github.com/harshkushwaha7x](https://github.com/harshkushwaha7x)
 * LinkedIn: [https://www.linkedin.com/in/harsh-kushwaha-7x/](https://www.linkedin.com/in/harsh-kushwaha-7x/)
 * Email: [harshkushwaha4151@gmail.com](mailto:harshkushwaha4151@gmail.com)
